@@ -1,15 +1,16 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- *_abs - Check Holberton
- * @r: An integre input
- * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ * _abs - returns absolute value of an int
+ * @n: integer from which to get an absolute value
+ * Return: Void.
  */
-int _abs(int r)
+
+int _abs(int n)
 {
-	if (r >= 0)
-		return (r);
-	else
-		return (r * -1);
+
+	if (n < 0)
+	{
+		return (n * -1);
+	}
+	return (n);
 }
