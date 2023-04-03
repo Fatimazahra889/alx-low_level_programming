@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-	int n;
 	int sum = 0;
-
-	for (n = 0; n < 1024; n++)
+	int n;
+for (n = 0; n < 1024; n++)
 	{
 		if (n % 3 == 0 || n % 5 == 0)
 		{
@@ -12,5 +11,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", sum);
-	return (0);
+return (0);
 }
