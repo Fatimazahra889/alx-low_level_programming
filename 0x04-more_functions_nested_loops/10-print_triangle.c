@@ -1,10 +1,6 @@
 #include "main.h"
 
-/**
- * print_triangle - create triangle
- * @size: params
- * Return: 0
- */
+
 
 void print_triangle(int size)
 {
