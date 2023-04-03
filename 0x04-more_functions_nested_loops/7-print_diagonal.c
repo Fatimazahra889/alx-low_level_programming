@@ -1,10 +1,4 @@
 #include "main.h"
-
-/**
- * print_diagonal - print slash
- * @n: params
- */
-
 void print_diagonal(int n)
 {
 	int i = 0;
