@@ -1,16 +1,10 @@
 #include <stdio.h>
-
-/**
- * main - finds and prints the sum of the even-valued terms
- * followed by a new line
- * Return: Always 0 (Success)
- */
 int main(void)
 {
 int i;
-unsigned long int j, k, next, sum;
-j = 1;
+unsigned long int k, j, next, sum;
 k = 2;
+j = 1;
 sum = 0;
 for (i = 1; i <= 33; ++i)
 {
