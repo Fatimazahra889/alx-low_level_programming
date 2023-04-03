@@ -1,10 +1,4 @@
 #include <stdio.h>
-
-/**
- * main - fizbuzz
- * Return: 0
- */
-
 int main(void)
 {
 	int i;
