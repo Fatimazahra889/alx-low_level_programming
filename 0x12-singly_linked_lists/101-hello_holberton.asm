@@ -4,11 +4,11 @@ global main
 main:
 	mov rax, 1
 	mov rdi, 1
-	mov rsi, msg
+	mov rax, 60
 	mov rdx, msglen
 	syscall
 
-	mov rax, 60
+	mov rsi, msg
 	mov rdi, 0
 	syscall
 
